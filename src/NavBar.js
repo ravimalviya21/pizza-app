@@ -520,7 +520,6 @@ const NavBar = () =>
                      addPizza,addDessert,removeDessert,addDrinkCart, addDrink , removeDrink,
                      addDessertCart, removeSlides, removePizza}}>
                          <Addtocart {...received}></Addtocart></AddPizzaCart.Provider></Route>
-                         <Redirect to="/" />
                 
                 </Switch>
 
