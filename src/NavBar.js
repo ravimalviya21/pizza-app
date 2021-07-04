@@ -485,10 +485,10 @@ const NavBar = () =>
                     <div className="header-section-responsive">
                         <div> <ClearRoundedIcon className="cross-icon"></ClearRoundedIcon> </div>
                     <div className="navbar-section-list">
-                        <li><Link to="/" className="home-link"><HomeRoundedIcon className="home-icon"></HomeRoundedIcon> Home</Link></li>
-                        <li><Link to="/offer" className="offer-link"><LocalOfferRoundedIcon className="offer-icon"></LocalOfferRoundedIcon>Menu</Link></li>
-                        <li><Link className="contact-link"><PermContactCalendarRoundedIcon className="contact-icon"></PermContactCalendarRoundedIcon>Contact Us</Link></li>
-                        <li><Link className="about-link"><InfoRoundedIcon className="about-icon"></InfoRoundedIcon>About Us</Link></li>
+                        <li><Link  to="/" className="home-link"><HomeRoundedIcon className="home-icon"></HomeRoundedIcon> Home</Link></li>
+                        <li><Link  to="/offer" className="offer-link"><LocalOfferRoundedIcon className="offer-icon"></LocalOfferRoundedIcon>Menu</Link></li>
+                        <li><Link  className="contact-link"><PermContactCalendarRoundedIcon className="contact-icon"></PermContactCalendarRoundedIcon>Contact Us</Link></li>
+                        <li><Link  className="about-link"><InfoRoundedIcon className="about-icon"></InfoRoundedIcon>About Us</Link></li>
                     </div>
                     </div>
 
