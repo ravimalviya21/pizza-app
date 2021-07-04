@@ -1,7 +1,7 @@
 import React from 'react'
 import ThePizzaHouse from './ThePizzaHouse.svg'
 import AddToCart from './AddToCart.svg'
-import {BrowserRouter as Router, Link, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Link, Route, Switch, Redirect} from 'react-router-dom';
 import Home , {Added} from './Components/Home';
 import Offer from './Components/Offer'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
