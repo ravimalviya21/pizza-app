@@ -748,10 +748,10 @@
     border : 2px solid rgba(0, 0,0,0.5);
     border-radius : 20px;
 } 
-.active-menu
+.menu-items-active-class
 {
-    /* color : var(--orange-color); */
     color : white;
+    text-decoration : none;
 }
 .menu-list-routing-inner
 {

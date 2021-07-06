@@ -1,15 +1,15 @@
-// import React from 'react';
-// import NavBar from './NavBar'
+import React from 'react';
+import NavBar from './NavBar'
 
-// const App = () =>
-// {
+const App = () =>
+{
     
-//     {
-//         return(
-//             <React.Fragment>
-//                 <NavBar></NavBar>
-//             </React.Fragment>
-//         )
-//     }
-// }
-// export default App
+    {
+        return(
+            <React.Fragment>
+                <NavBar></NavBar>
+            </React.Fragment>
+        )
+    }
+}
+export default App

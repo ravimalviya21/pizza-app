@@ -5,7 +5,6 @@ const DessertMenuCart = () =>
 {
     const {addDessertCart, addDessert , removeDessert} = React.useContext(AddPizzaCart);
 
-    console.log("dessert", addDessertCart);
 
     return(
         <React.Fragment>

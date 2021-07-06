@@ -4,7 +4,6 @@ import {AddPizzaCart} from '../../NavBar';
 const SlidesMenuCart = () =>
 {
     const {addSlidesCart, addSlides, removeSlides} = React.useContext(AddPizzaCart);
-    console.log("slides cart", addSlidesCart)
    return(
        <React.Fragment>
                  { addSlidesCart.map((x) =>  

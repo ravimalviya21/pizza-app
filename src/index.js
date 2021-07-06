@@ -8,8 +8,8 @@ import NavBar from './NavBar';
 ReactDOM.render(
     <React.StrictMode>
         <div className="body-section">
-        {/* <App></App> */}
-        <NavBar></NavBar>
+        <App></App>
+        {/* <NavBar></NavBar> */}
 
         </div>
     </React.StrictMode>, document.getElementById('root')

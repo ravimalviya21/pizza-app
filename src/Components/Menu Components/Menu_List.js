@@ -1,10 +1,12 @@
 import React from 'react';
-import {useContext, useState} from 'react';
+import {useContext} from 'react';
+import {useRouteMatch} from 'react-router-dom';
 import {PizzaS} from '../../NavBar';
-const Menu_List = () =>
+const Menu_List = (props) =>
 {
     const {recreated_pizza, quanHandler, sizeHandler , addPizza} = useContext(PizzaS);
-    console.log(recreated_pizza);
+    const route = useRouteMatch();
+
 
     return(
         <React.Fragment>

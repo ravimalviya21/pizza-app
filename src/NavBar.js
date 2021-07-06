@@ -1,7 +1,7 @@
 import React from 'react'
 import ThePizzaHouse from './ThePizzaHouse.svg'
 import AddToCart from './AddToCart.svg'
-import {HashRouter as Router, Link, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route, Switch, Redirect} from 'react-router-dom';
 import Home , {Added} from './Components/Home';
 import Offer from './Components/Offer'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
@@ -43,6 +43,11 @@ const NavBar = () =>
     const [addDrinkCart, updateDrinkCart] = useState([]);
     const cartLength = CartItems.length+addPizzaCart.length+
     addSlidesCart.length+addDessertCart.length+addDrinkCart.length;
+
+    const menuItems = {
+        color : "#e16428"
+    }
+
 
 
 
@@ -205,7 +210,6 @@ const NavBar = () =>
             updatePizzaCart([...addPizzaCart, {...x}])
         }
     }
-    console.log(addPizzaCart);
 
     const removePizza = (e, x) => 
     {
@@ -465,7 +469,6 @@ const NavBar = () =>
             } ))
         }
     }
-    console.log("cartItems", CartItems);
 
     const received =  { quantity, price ,CartItems, small , medium , large , ex_large , new_data, Inc , Dec, add , remove , Added,  setAdded};
 
@@ -498,10 +501,11 @@ const NavBar = () =>
                     </div>
                 </div>
                 <Switch>
-                <Route exact path="/" ><AdditionalItems.Provider value={{addCoke, addFrench}}>
+                <Route exact path="/"><AdditionalItems.Provider value={{addCoke, addFrench}}>
                     <Home {...received}>
                     </Home>
-                    </AdditionalItems.Provider></Route>
+                    </AdditionalItems.Provider>
+                </Route>
                 <Route path="/offer">
                     
                 <Slides.Provider value={{recreated_slides, slidesQuanHandler, addSlides}}>
