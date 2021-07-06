@@ -10,7 +10,6 @@ const Offer = (props) =>
     const {pizza_list} = props;
 
     const route = useRouteMatch();
-    console.log(route.path);
 
     const menuItems = {
         color : "#e16428"

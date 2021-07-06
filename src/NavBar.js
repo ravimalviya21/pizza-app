@@ -1,7 +1,7 @@
 import React from 'react'
 import ThePizzaHouse from './ThePizzaHouse.svg'
 import AddToCart from './AddToCart.svg'
-import {BrowserRouter as Router, Link, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route, Switch, Redirect, useRouteMatch} from 'react-router-dom';
 import Home , {Added} from './Components/Home';
 import Offer from './Components/Offer'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
@@ -26,6 +26,7 @@ const AdditionalItems = createContext();
 
 const NavBar = () =>
 {
+
     const {pizzadata, pizza_list , slides , desserts, drink} = data;
     const [gotdata, changedata] = useState(pizzadata);
     var   [quantity, new_quantity] = useState(1);
@@ -41,6 +42,7 @@ const NavBar = () =>
     const [addSlidesCart , updateSlidesCart] = useState([]);
     const [addDessertCart , updateDessertCart] = useState([]);
     const [addDrinkCart, updateDrinkCart] = useState([]);
+
     const cartLength = CartItems.length+addPizzaCart.length+
     addSlidesCart.length+addDessertCart.length+addDrinkCart.length;
 
@@ -524,6 +526,7 @@ const NavBar = () =>
                      addPizza,addDessert,removeDessert,addDrinkCart, addDrink , removeDrink,
                      addDessertCart, removeSlides, removePizza}}>
                          <Addtocart {...received}></Addtocart></AddPizzaCart.Provider></Route>
+                         <Redirect to="/"></Redirect>
                 
                 </Switch>
 
