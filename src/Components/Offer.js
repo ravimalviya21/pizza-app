@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router , NavLink , Route , Switch, Redirect, useRouteMatch , useParams} from 'react-router-dom';
+import {HashRouter as Router , NavLink , Route , Switch, Redirect, useRouteMatch , useParams} from 'react-router-dom';
 import Pizza_Menu from './Menu Components/Pizza_Menu';
 import Slides_Menu from './Menu Components/Slides_Menu';
 import Desserts_Menu from './Menu Components/Desserts_Menu';
