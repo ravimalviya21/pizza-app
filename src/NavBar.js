@@ -15,6 +15,8 @@ import ClearRoundedIcon from '@material-ui/icons/ClearRounded';
 import Hamburger from './Hamburger.svg';
 import data from './Components/json/data';
 import {useState ,useEffect, createContext} from 'react';
+import Contact from './Components/Menu Components/Contact';
+import AboutUs from './Components/Menu Components/AboutUs';
 
 
 const Slides = createContext();
@@ -492,8 +494,8 @@ const NavBar = () =>
                     <div className="navbar-section-list">
                         <li><Link  to="/" className="home-link"><HomeRoundedIcon className="home-icon"></HomeRoundedIcon> Home</Link></li>
                         <li><Link  to="/offer" className="offer-link"><LocalOfferRoundedIcon className="offer-icon"></LocalOfferRoundedIcon>Menu</Link></li>
-                        <li><Link  className="contact-link"><PermContactCalendarRoundedIcon className="contact-icon"></PermContactCalendarRoundedIcon>Contact Us</Link></li>
-                        <li><Link  className="about-link"><InfoRoundedIcon className="about-icon"></InfoRoundedIcon>About Us</Link></li>
+                        <li><Link to="/contact"  className="contact-link"><PermContactCalendarRoundedIcon className="contact-icon"></PermContactCalendarRoundedIcon>Contact Us</Link></li>
+                        <li><Link to="/aboutus" className="about-link"><InfoRoundedIcon className="about-icon"></InfoRoundedIcon>About Us</Link></li>
                     </div>
                     </div>
 
@@ -526,6 +528,8 @@ const NavBar = () =>
                      addPizza,addDessert,removeDessert,addDrinkCart, addDrink , removeDrink,
                      addDessertCart, removeSlides, removePizza}}>
                          <Addtocart {...received}></Addtocart></AddPizzaCart.Provider></Route>
+                         <Route path="/contact"><Contact></Contact></Route>
+                         <Route path="/aboutus"><AboutUs></AboutUs></Route>
                          <Redirect to="/"></Redirect>
                 
                 </Switch>
