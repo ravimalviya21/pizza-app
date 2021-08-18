@@ -1022,11 +1022,6 @@
  {
     width : 80%;
  }
- .PizzaBoy-image img
- {
-     filter :grayscale(100%);
-     opacity : 50%;
- }
 
 .contact-header-container
 {
@@ -1112,11 +1107,6 @@
 .aboutus-image
 {
     width : 35%;
-}
-.aboutus-image img
-{
-    filter : grayscale(100%);
-    opacity : 50%;
 }
 .aboutus-para
 {
