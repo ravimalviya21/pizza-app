@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pizza-app/static/css/main.cdaf3011.chunk.css",
+    "main.css": "/pizza-app/static/css/main.ec251ada.chunk.css",
     "main.js": "/pizza-app/static/js/main.54b4cde7.chunk.js",
     "main.js.map": "/pizza-app/static/js/main.54b4cde7.chunk.js.map",
     "runtime-main.js": "/pizza-app/static/js/runtime-main.1753798c.js",
@@ -8,7 +8,7 @@
     "static/js/2.16d13cb4.chunk.js": "/pizza-app/static/js/2.16d13cb4.chunk.js",
     "static/js/2.16d13cb4.chunk.js.map": "/pizza-app/static/js/2.16d13cb4.chunk.js.map",
     "index.html": "/pizza-app/index.html",
-    "static/css/main.cdaf3011.chunk.css.map": "/pizza-app/static/css/main.cdaf3011.chunk.css.map",
+    "static/css/main.ec251ada.chunk.css.map": "/pizza-app/static/css/main.ec251ada.chunk.css.map",
     "static/js/2.16d13cb4.chunk.js.LICENSE.txt": "/pizza-app/static/js/2.16d13cb4.chunk.js.LICENSE.txt",
     "static/media/AboutUsImage.a29551de.svg": "/pizza-app/static/media/AboutUsImage.a29551de.svg",
     "static/media/AddToCart.62f540da.svg": "/pizza-app/static/media/AddToCart.62f540da.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.1753798c.js",
     "static/js/2.16d13cb4.chunk.js",
-    "static/css/main.cdaf3011.chunk.css",
+    "static/css/main.ec251ada.chunk.css",
     "static/js/main.54b4cde7.chunk.js"
   ]
 }
