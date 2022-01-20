@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pizza-app/static/css/main.ec251ada.chunk.css",
-    "main.js": "/pizza-app/static/js/main.54b4cde7.chunk.js",
-    "main.js.map": "/pizza-app/static/js/main.54b4cde7.chunk.js.map",
+    "main.css": "/pizza-app/static/css/main.fdae4a29.chunk.css",
+    "main.js": "/pizza-app/static/js/main.6243de10.chunk.js",
+    "main.js.map": "/pizza-app/static/js/main.6243de10.chunk.js.map",
     "runtime-main.js": "/pizza-app/static/js/runtime-main.1753798c.js",
     "runtime-main.js.map": "/pizza-app/static/js/runtime-main.1753798c.js.map",
     "static/js/2.16d13cb4.chunk.js": "/pizza-app/static/js/2.16d13cb4.chunk.js",
     "static/js/2.16d13cb4.chunk.js.map": "/pizza-app/static/js/2.16d13cb4.chunk.js.map",
     "index.html": "/pizza-app/index.html",
-    "static/css/main.ec251ada.chunk.css.map": "/pizza-app/static/css/main.ec251ada.chunk.css.map",
+    "static/css/main.fdae4a29.chunk.css.map": "/pizza-app/static/css/main.fdae4a29.chunk.css.map",
     "static/js/2.16d13cb4.chunk.js.LICENSE.txt": "/pizza-app/static/js/2.16d13cb4.chunk.js.LICENSE.txt",
     "static/media/AboutUsImage.a29551de.svg": "/pizza-app/static/media/AboutUsImage.a29551de.svg",
     "static/media/AddToCart.62f540da.svg": "/pizza-app/static/media/AddToCart.62f540da.svg",
@@ -23,13 +23,14 @@
     "static/media/instagram.44073b03.svg": "/pizza-app/static/media/instagram.44073b03.svg",
     "static/media/linkedin.a6993c12.svg": "/pizza-app/static/media/linkedin.a6993c12.svg",
     "static/media/pinterest.2b71536c.svg": "/pizza-app/static/media/pinterest.2b71536c.svg",
+    "static/media/temp.235ea17f.jpg": "/pizza-app/static/media/temp.235ea17f.jpg",
     "static/media/twitter.347fea81.svg": "/pizza-app/static/media/twitter.347fea81.svg",
     "static/media/youtube.01beee9b.svg": "/pizza-app/static/media/youtube.01beee9b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1753798c.js",
     "static/js/2.16d13cb4.chunk.js",
-    "static/css/main.ec251ada.chunk.css",
-    "static/js/main.54b4cde7.chunk.js"
+    "static/css/main.fdae4a29.chunk.css",
+    "static/js/main.6243de10.chunk.js"
   ]
 }
