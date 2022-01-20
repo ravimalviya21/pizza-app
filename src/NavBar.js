@@ -218,6 +218,7 @@ const NavBar = () =>
     const removePizza = (e, x) => 
     {
         const check = addPizzaCart.find(a => a.id.$id === x.id.$id )
+        console.log("remove data", check)
         if(check.quantity === 1)
         {
             updatedPizza(recreated_pizza.map((z) => { 
@@ -419,7 +420,7 @@ const NavBar = () =>
                 if(x.id === product.id)
                 {
                     setAdded("Added");
-                    new_quantity(quantity= quantity+1)
+                    new_quantity(quantity+1)
                     return { ...exist , total_quan : quantity }
                 }
                 return x;
@@ -447,7 +448,7 @@ const NavBar = () =>
                {
                    if(quantity!==1)
                    {
-                       new_quantity(quantity = quantity-1)
+                       new_quantity(quantity-1)
                    }
                    return {...exist , total_quan : quantity}
                }
